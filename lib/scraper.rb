@@ -9,6 +9,7 @@ class Scraper
     index_page.css("div.roster-cards-cointainer").each do |card|
       card.css("student-card a").each do |student|
         student_profile_link = "#{student.attr('href')}"
+      end
     end
     binding.pry
   end
