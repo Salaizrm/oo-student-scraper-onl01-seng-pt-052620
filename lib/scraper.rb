@@ -32,5 +32,7 @@ class Scraper
       student[:blog] = link
     end
   end
+  students
+end
 
 end
