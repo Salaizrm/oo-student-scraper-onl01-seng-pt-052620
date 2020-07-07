@@ -11,7 +11,6 @@ class Scraper
         student_profile_link = "#{student.attr('href')}"
       end
     end
-    binding.pry
   end
 
   def self.scrape_profile_page(profile_url)
